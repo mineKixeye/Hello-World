@@ -1,0 +1,1335 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*<------------------ONE--------------------->*/
+
+#logo{
+	display:inline-block;
+	float:left;	
+	height:80px;
+	}
+#common{
+	display:none;
+	}
+#explore{
+	display:block;	
+	position:relative;
+	}
+
+#nav{
+	display:block;
+	background-color:#3b5998;
+	padding:0;
+	margin:0;
+	height:80px;
+	width:100%;	
+	z-index:9000;
+	position:fixed;
+	top:0px;
+}
+#nav ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:40%;
+	right:1%;
+
+}
+#nav ul li{
+	display:inline-block;
+	background-color:transparent;
+	
+}
+#nav ul li:hover{	
+	color:#fff;
+}
+#nav ul li a,visited{
+	color:#fff;
+	padding:15px;
+	text-decoration:none;
+	font-size:20px;
+}
+#nav ul li a:hover{
+	color:#FFF;
+	text-decoration:none;
+	padding:15px;
+	
+}
+#nav ul li:hover ul{
+	display:block;
+	
+}
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	
+}
+#nav ul ul li{
+	display:block;
+	background-color:#888;
+	position:relative;
+	right:-15px;
+	
+	
+}
+#nav ul ul li a,visited{
+	color:#FFF;
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul li a:hover{
+	color:#099;
+}
+
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:90%;
+	left:-70px;
+	width:123px;
+	font-family:century gothic;
+	z-index:99;
+}
+#nav ul ul li{
+	display:block;
+	background-color:#3b5998;
+	
+}
+#nav ul ul  li a,visited{
+	
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul  li a:hover{
+	color:#000;
+	font-weight:bold;
+}
+
+/*<---------------->*/
+#content {
+	background-color:#FFF;
+	width:100%;
+	height:2195px;
+	position:relative;
+	top:90px;
+}
+#serv {
+	background-color:#FFF;
+	width:95%;
+	height:40%;
+	position:relative;
+	top:5px;
+	font-family:century gothic;
+	font-size:14px;
+}
+#declog {
+	text-align:left;
+}
+#siphoning {
+	text-align:left;
+}
+#otherservices{
+	text-align:left;
+}
+
+#serv2 {
+	background-color:#FFF;
+	width:100%;
+	height:80%;
+	position:relative;
+	top:-35px;
+	font-family:century gothic;
+	font-size:15px;
+}
+#wedoservice {
+	text-align:left;
+}
+#contact {
+	text-align:left;
+}
+#footer1{
+	height:35%;
+	width:110%;
+	background-color:#09F;
+	top:25px;
+	left:-5%;
+	position:relative;
+}
+#footer2 {
+	height:15%;
+	width:100%;
+	background-color:#3b5998;
+	position:relative;
+	top:5%;
+}
+}
+@media only screen and (min-width: 335px){	
+
+/*<------------------TWO--------------------->*/
+
+#logo{
+	display:inline-block;
+	float:left;	
+	height:80px;
+	}
+#common{
+	display:none;
+	}
+#explore{
+	display:block;	
+	position:relative;
+	
+	}
+
+#nav{
+	display:block;
+	background-color:#3b5998;
+	padding:0;
+	margin:0;
+	height:80px;
+	width:100%;
+	position:fixed;	
+	z-index:9000;		
+}
+#nav ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:40%;
+	right:1%;
+}
+#nav ul li{
+	display:inline-block;
+	background-color:transparent;
+	
+}
+#nav ul li:hover{	
+	
+	color:#fff;
+}
+#nav ul li a,visited{
+	color:#fff;
+	padding:15px;
+	text-decoration:none;
+	font-size:20px;
+	
+}
+#nav ul li a:hover{
+	color:#FFF;
+	text-decoration:none;
+	padding:15px;
+	
+}
+#nav ul li:hover ul{
+	display:block;
+	
+}
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	
+}
+#nav ul ul li{
+	display:block;
+	background-color:#888;
+	position:relative;
+	right:-15px;
+}
+#nav ul ul li a,visited{
+	color:#FFF;
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul li a:hover{
+	color:#099;
+}
+
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:90%;
+	left:-70px;
+	width:123px;
+	font-family:century gothic;
+	z-index:99;
+}
+#nav ul ul li{
+	display:block;
+	background-color:#3b5998;
+	
+}
+#nav ul ul  li a,visited{
+	
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul  li a:hover{
+	color:#000;
+	font-weight:bold;
+}
+</*-----------------------------*/>
+#content {
+	background-color:#FF0;
+	width:100%;
+	height:1850px;
+	position:relative;
+	top:90px;
+}
+#serv {
+	background-color:#FFF;
+	width:95%;
+	height:50%;
+	position:relative;
+	top:5px;
+	font-family:century gothic;
+	font-size:14px;
+}
+#declog {
+	text-align:left;
+}
+#siphoning {
+	text-align:left;
+}
+#otherservices{
+	text-align:left;
+}
+
+#serv2 {
+	background-color:#FFF;
+	width:100%;
+	height:90%;
+	position:relative;
+	top:-35px;
+	font-family:century gothic;
+	font-size:15px;
+}
+#wedoservice {
+	text-align:left;
+}
+#contact {
+	text-align:left;
+}
+#footer1{
+	height:30%;
+	width:110%;
+	background-color:#09F;
+	top:25px;
+	left:-5%;
+	position:relative;
+}
+#footer2 {
+	height:15%;
+	width:100%;
+	background-color:#ff0;
+	position:relative;
+	top:-25%;
+}
+
+}
+
+@media only screen and (min-width: 400px) {
+	
+#logo{
+	display:inline-block;
+	float:left;
+	height:80px;	
+	}
+#common{
+	display:none;
+	}
+#explore{
+	display:block;	
+	position:relative;
+	
+	}
+
+#nav{
+	display:block;
+	background-color:#3b5998;
+	padding:0;
+	margin:0;
+	height:80px;
+	width:100%;
+	position:fixed;	
+	z-index:9000;		
+}
+#nav ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:40%;
+	right:1%;
+}
+#nav ul li{
+	display:inline-block;
+	background-color:transparent;
+	
+}
+#nav ul li:hover{	
+	
+	color:#fff;
+}
+#nav ul li a,visited{
+	color:#fff;
+	padding:15px;
+	text-decoration:none;
+	font-size:20px;
+}
+#nav ul li a:hover{
+	color:#FFF;
+	text-decoration:none;
+	padding:15px;
+	
+}
+#nav ul li:hover ul{
+	display:block;
+	
+}
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	
+}
+#nav ul ul li{
+	display:block;
+	background-color:#888;
+	position:relative;
+	right:-15px;
+	
+	
+}
+#nav ul ul li a,visited{
+	color:#FFF;
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul li a:hover{
+	color:#099;
+}
+
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:90%;
+	left:-70px;
+	width:123px;
+	font-family:century gothic;
+	z-index:99;
+}
+#nav ul ul li{
+	display:block;
+	background-color:#3b5998;
+	
+}
+#nav ul ul  li a,visited{
+	
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul  li a:hover{
+	color:#000;
+	font-weight:bold;
+}
+/*<---------------------------------->*/
+#content {
+	background-color:#FFF;
+	width:100%;
+	height:1800px;
+	position:relative;
+	top:90px;
+}
+#serv {
+	background-color:#FFF;
+	width:95%;
+	height:50%;
+	position:relative;
+	top:5px;
+	font-family:century gothic;
+	font-size:14px;
+}
+#declog {
+	text-align:left;
+}
+#siphoning {
+	text-align:left;
+}
+#otherservices{
+	text-align:left;
+}
+
+#serv2 {
+	background-color:#FFF;
+	width:100%;
+	height:90%;
+	position:relative;
+	top:-35px;
+	font-family:century gothic;
+	font-size:15px;
+}
+#wedoservice {
+	text-align:left;
+}
+#contact {
+	text-align:left;
+}
+#footer1{
+	height:30%;
+	width:110%;
+	background-color:#09F;
+	top:25px;
+	left:-5%;
+	position:relative;
+}
+#footer2 {
+	height:15%;
+	width:100%;
+	background-color:#3b5998;
+	position:relative;
+	top:4%;
+}
+
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 580px) {
+#logo{
+	display:inline-block;
+	float:left;	
+	height:80px;
+	}
+#common{
+	display:none;
+	}
+#explore{
+	display:block;	
+	position:relative;
+	
+	}
+
+#nav{
+	display:block;
+	background-color:#3b5998;
+	padding:0;
+	margin:0;
+	height:80px;	
+	width:100%;
+	position:fixed;	
+	z-index:9000;	
+}
+#nav ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:40%;
+	right:1%;
+}
+#nav ul li{
+	display:inline-block;
+	background-color:transparent;
+	
+}
+#nav ul li:hover{	
+	
+	color:#fff;
+}
+#nav ul li a,visited{
+	color:#fff;
+	padding:15px;
+	text-decoration:none;
+	font-size:20px;
+}
+#nav ul li a:hover{
+	color:#FFF;
+	text-decoration:none;
+	padding:15px;
+	
+}
+#nav ul li:hover ul{
+	display:block;
+	
+}
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	
+}
+#nav ul ul li{
+	display:block;
+	background-color:#888;
+	position:relative;
+	right:-15px;
+	
+	
+}
+#nav ul ul li a,visited{
+	color:#FFF;
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul li a:hover{
+	color:#099;
+}
+
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:90%;
+	left:-70px;
+	width:123px;
+	font-family:century gothic;
+	z-index:99;
+}
+#nav ul ul li{
+	display:block;
+	background-color:#3b5998;
+	
+}
+#nav ul ul  li a,visited{
+	
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul  li a:hover{
+	color:#000;
+	font-weight:bold;
+}
+/*<---------------------------------->*/
+
+#content {
+	background-color:#FFF;
+	width:100%;
+	height:1800px;
+	position:relative;
+	top:90px;
+}
+#serv {
+	background-color:#FFF;
+	width:95%;
+	height:50%;
+	position:relative;
+	top:5px;
+	font-family:century gothic;
+	font-size:14px;
+}
+#declog {
+	text-align:left;
+}
+#siphoning {
+	text-align:left;
+}
+#otherservices{
+	text-align:left;
+}
+
+#serv2 {
+	background-color:#FFF;
+	width:100%;
+	height:90%;
+	position:relative;
+	top:-35px;
+	font-family:century gothic;
+	font-size:15px;
+}
+#wedoservice {
+	text-align:left;
+}
+#contact {
+	text-align:left;
+}
+#footer1{
+	height:30%;
+	width:110%;
+	background-color:#09F;
+	top:25px;
+	left:-5%;
+	position:relative;
+}
+#footer2 {
+	height:15%;
+	width:100%;
+	background-color:#3b5998;
+	position:relative;
+	top:4%;
+}
+
+}
+@media only screen and (min-width: 693px) {
+
+#logo{
+	display:inline-block;
+	float:left;	
+	height:90px;
+	}
+#common{
+	display:none;
+	}
+#explore{
+	display:block;	
+	position:relative;
+	
+	}
+
+#nav{
+	display:block;
+	background-color:#3b5998;
+	padding:0;
+	margin:0;
+	height:90px;	
+	width:100%;
+	position:fixed;	
+	z-index:9000;	
+}
+#nav ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	position:absolute;
+	top: 40%;
+	right:1%;
+}
+#nav ul li{
+	display:inline-block;
+	background-color:transparent;
+	
+	
+}
+#nav ul li:hover{	
+	
+	background-color:transparent;
+	
+	
+}
+#nav ul li a,visited{
+	color:#fff;
+	padding:15px;
+	text-decoration:none;
+	font-size:20px;
+	font-family:century gothic;
+}
+#nav ul li a:hover{
+	color:#000;
+	text-decoration:none;
+	padding:15px;
+	font-weight:bold;
+	
+}
+#nav ul li:hover ul{
+	display:block;
+	
+}
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	
+
+	
+}
+#nav ul ul li{
+	display:block;
+	background-color:#888;
+	position:relative;
+	
+	
+}
+#nav ul ul li a,visited{
+	
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul li a:hover{
+	color:#099;
+}
+
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+}
+#nav ul ul li{
+	display:block;
+	background-color:#444;
+	
+}
+#nav ul ul  li a,visited{
+	
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul  li a:hover{
+	color:#099;
+}
+/*<---------------------------------->*/
+#content {
+	background-color:#FFF;
+	width:100%;
+	height:1750px;
+	position:relative;
+	top:90px;
+}
+#serv {
+	background-color:#FFF;
+	width:95%;
+	height:50%;
+	position:relative;
+	top:5px;
+	font-family:century gothic;
+	font-size:14px;
+}
+#declog {
+	text-align:left;
+}
+#siphoning {
+	text-align:left;
+}
+#otherservices{
+	text-align:left;
+}
+
+#serv2 {
+	background-color:#FFF;
+	width:100%;
+	height:90%;
+	position:relative;
+	top:-35px;
+	font-family:century gothic;
+	font-size:15px;
+}
+#wedoservice {
+	text-align:left;
+}
+#contact {
+	text-align:left;
+}
+#footer1{
+	height:30%;
+	width:110%;
+	background-color:#09F;
+	top:25px;
+	left:-5%;
+	position:relative;
+}
+#footer2 {
+	height:15%;
+	width:100%;
+	background-color:#3b5998;
+	position:relative;
+	top:2%;
+}
+
+}
+
+@media only screen and (min-width: 999px){
+	
+#logo{
+	display:inline-block;
+	float:left;	
+	height: 90px;
+	}
+#common{
+	display:block;
+	}
+#explore{
+	display:none;	
+	position:relative;
+	
+	}
+
+#nav{
+	display:block;
+	background-color:#53b5998;
+	padding:0;
+	margin:0;
+	height:90px;
+	width:100%;
+	position:fixed;	
+	z-index:9000;	
+}
+#nav ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:40%;
+	right:1%;
+	
+
+}
+#nav ul li{
+	display:inline-block;
+	background-color:transparent;
+	
+	
+}
+#nav ul li:hover{	
+	
+	background-color:transparent;
+}
+#nav ul li a,visited{
+	color:#fff;
+	padding:15px;
+	text-decoration:none;
+	font-size:20px;
+}
+#nav ul li a:hover{
+	color:#000;
+	text-decoration:none;
+	padding:15px;
+	font-weight:bold;
+}
+#nav ul li:hover ul{
+	display:block;
+	
+}
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	
+
+	
+}
+#nav ul ul li{
+	display:block;
+	background-color:#888;
+	position:relative;
+	
+	
+}
+#nav ul ul li a,visited{
+	
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul li a:hover{
+	color:#099;
+}
+
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+}
+#nav ul ul li{
+	display:block;
+	background-color:#444;
+	
+}
+#nav ul ul  li a,visited{
+	
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul  li a:hover{
+	color:#099;
+}
+/*<---------------------------------->*/
+#content {
+	background-color:transparent;
+	width:95%;
+	height:1778px;
+	position:relative;
+	top:90px;
+}
+#serv {
+	background-color:#FFF;
+	width:95%;
+	height:50%;
+	position:relative;
+	top:5px;
+	font-family:century gothic;
+	font-size:14px;
+}
+#declog {
+	text-align:left;
+}
+#siphoning {
+	text-align:left;
+}
+#otherservices{
+	text-align:left;
+}
+
+#serv2 {
+	background-color:#FFF;
+	width:100%;
+	height:90%;
+	position:relative;
+	top:-35px;
+	font-family:century gothic;
+	font-size:15px;
+}
+#wedoservice {
+	text-align:left;
+}
+#contact {
+	text-align:left;
+}
+#footer1{
+	height:30%;
+	width:100%;
+	background-color:#09F;
+	top:25px;
+	left:0%;
+	position:relative;
+	
+}
+#footer2 {
+	height:15%;
+	width:100%;
+	background-color:#3b5998;
+	position:relative;
+	top:2%;
+}
+
+}
+
+@media only screen and (min-width: 1261px){
+	
+#logo{
+	display:inline-block;
+	float:left;	
+	height: 90px;
+	}
+#common{
+	display:block;
+	}
+#explore{
+	display:none;	
+	position:relative;
+	
+	}
+
+#nav{
+	display:block;
+	background-color:#3b5998;
+	padding:0;
+	margin:0;
+	height:90px;
+	width:100%;
+	position:fixed;	
+	z-index:9000;		
+}
+#nav ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:40%;
+	right:1%;
+
+}
+#nav ul li{
+	display:inline-block;
+	background-color:transparent;
+	
+	
+}
+#nav ul li:hover{	
+	
+	background-color:transparent;
+}
+#nav ul li a,visited{
+	color:#fff;
+	padding:15px;
+	text-decoration:none;
+	font-size:20px;
+}
+#nav ul li a:hover{
+	color:#000;
+	text-decoration:none;
+	padding:15px;
+	font-weight:bold;
+}
+#nav ul li:hover ul{
+	display:block;
+	
+}
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	
+
+	
+}
+#nav ul ul li{
+	display:block;
+	background-color:#888;
+	position:relative;
+	
+	
+}
+#nav ul ul li a,visited{
+	
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul li a:hover{
+	color:#099;
+}
+
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+}
+#nav ul ul li{
+	display:block;
+	background-color:#444;
+	
+}
+#nav ul ul  li a,visited{
+	
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul  li a:hover{
+	color:#099;
+}
+/*<---------------------------------->*/
+#content {
+	background-color:#transparent;
+	width:95%;
+	height:1760px;
+	position:relative;
+	top:90px;
+}
+#serv {
+	background-color:#FFF;
+	width:95%;
+	height:50%;
+	position:relative;
+	top:5px;
+	font-family:century gothic;
+	font-size:14px;
+}
+#declog {
+	text-align:left;
+	margin-left:20%;
+}
+#siphoning {
+	text-align:left;
+	margin-left:20%;
+}
+#otherservices{
+	text-align:left;
+	margin-left:20%;
+}
+
+#serv2 {
+	background-color:#FFF;
+	width:100%;
+	height:90%;
+	position:relative;
+	top:-35px;
+	font-family:century gothic;
+	font-size:15px;
+}
+#wedoservice {
+	text-align:left;
+	margin-left:20%;
+}
+#contact {
+	text-align:left;
+	margin-left:20%;
+}
+#footer1{
+	height:30%;
+	width:100%;
+	background-color:#09F;
+	top:25px;
+	left:0%;
+	position:relative;
+	
+}
+#footer2 {
+	height:15%;
+	width:100%;
+	background-color:#3b5998;
+	position:relative;
+	top:2%;
+}
+
+}
+
+@media only screen and (min-width: 1421px){
+	
+#logo{
+	display:inline-block;
+	float:left;	
+	height: 90px;
+	}
+#common{
+	display:block;
+	}
+#explore{
+	display:none;	
+	position:absolute;
+	
+	}
+
+#nav{
+	display:block;
+	background-color:#3b5998;
+	margin:0;
+	height:90px;
+	width:100%;
+	position:fixed;	
+	z-index:9000;	
+}
+#nav ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:40%;
+	right:1%;
+}
+#nav ul li{
+	display:inline-block;
+	background-color:transparent;
+	
+	
+}
+#nav ul li:hover{	
+	
+	background-color:transparent;
+}
+#nav ul li a,visited{
+	color:#fff;
+	padding:15px;
+	text-decoration:none;
+	font-size:20px;
+}
+#nav ul li a:hover{
+	color:#000;
+	text-decoration:none;
+	padding:15px;
+	font-weight:bold;
+}
+#nav ul li:hover ul{
+	display:block;
+	
+}
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	
+
+	
+}
+#nav ul ul li{
+	display:block;
+	background-color:#888;
+	position:relative;
+	
+	
+}
+#nav ul ul li a,visited{
+	
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul li a:hover{
+	color:#099;
+}
+
+#nav ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+}
+#nav ul ul li{
+	display:block;
+	background-color:#444;
+	
+}
+#nav ul ul  li a,visited{
+	
+	text-decoration:none;
+	display:block;
+}
+#nav ul ul  li a:hover{
+	color:#099;
+}
+/*<---------------------------------->*/
+#content {
+	background-color:#transparent;
+	width:95%;
+	height:1760px;
+	position:relative;
+	top:90px;
+}
+#serv {
+	background-color:#FFF;
+	width:95%;
+	height:50%;
+	position:relative;
+	top:5px;
+	font-family:century gothic;
+	font-size:14px;
+}
+#declog {
+	text-align:left;
+}
+#siphoning {
+	text-align:left;
+}
+#otherservices{
+	text-align:left;
+}
+
+#serv2 {
+	background-color:#FFF;
+	width:100%;
+	height:90%;
+	position:relative;
+	top:-35px;
+	font-family:century gothic;
+	font-size:15px;
+}
+#wedoservice {
+	text-align:left;
+}
+#contact {
+	text-align:left;
+}
+#footer1{
+	height:30%;
+	width:100%;
+	background-color:#09F;
+	top:25px;
+	left:0%;
+	position:relative;
+	
+}
+#footer2 {
+	height:15%;
+	width:100%;
+	background-color:#3b5998;
+	position:relative;
+	top:2%;
+}
+
+}

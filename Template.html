@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="HomeStyle.css" rel="stylesheet" type="text/css">
+<script src="respond.min.js"></script>
+<script src="angular.min.js"></script>
+<title>H.M. Malabanan</title>
+
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+<!--navigation and header-->
+<div id = "nav" clearfix>
+  <img src="logo.png" alt="H.M.Malabanan.Logo"  id = "logo">  
+    <div id = "navContainer" clearfix>
+  	<ul>
+  		<li clearfix><a href="#"id = "common" ng-click="myfunct(true,false)">HOME</a></li>
+        <li clearfix><a href="#" id = "common" ng-click="myfunct(false,true)">SERVICES</a></li>
+        <li clearfix><a href="Inquire Now.php?Msg= " id = "common">INQUIRE NOW</a></li>
+        <li clearfix><a href="#" id = "explore">&#9776; </a>
+			<ul>
+       				<li clearfix><a href="index.php" >Home</a></li>
+            	    <li clearfix><a href="Services.php">Services</a></li>
+                	<li clearfix><a href="Inquire Now.php?Msg= ">Inquire Now</a></li>
+    		</ul>
+  		</li>      
+    </ul>
+    
+<marquee behavior="scroll" direction ="left" style="background-color:#3b5998; color:#FFF; height:28px; font-family:century gothic; font-size:20px;"> &#9743; &nbsp &nbsp &nbsp Landline: (02) 232-8641 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Smart: 0929-326-5046 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Globe: 0915-547-0605 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Sun: 0923-515-5931
+      	</marquee>
+
+</div></div>
+
+<!--navigation and header-->
+<!--content-->
+<!--content-->
+<center><div id= "content" >
+    	
+        
+    
+    
+       </div></center>
+
+<!--Script-->
+<script>
+var app = angular.module('myApp',[]);
+app.controller('myCtrl',
+function($scope){
+	
+	
+});
+</script>
+<!--Script-->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
